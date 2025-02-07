@@ -9,30 +9,54 @@
 // alert(`hari ini adalah ${hari}`);
 
 // tugas 1
-const saldoAwal = Number(prompt('masukkan saldo awal?'));
-const saldoTambahan = Number(prompt('dapet tambahan piro?'));
-const hutang = Number(prompt('ono hutang piro?'));
-
-const saldoAkhir = saldoAwal + saldoTambahan - hutang;
-
-alert(`total harusnya ${saldoAkhir}`);
-
+// const saldoAwal = Number(prompt('masukkan saldo awal?'));
+// const saldoTambahan = Number(prompt('dapet tambahan piro?'));
+// const hutang = Number(prompt('ono hutang piro?'));
+//
+// const saldoAkhir = saldoAwal + saldoTambahan - hutang;
+//
+// alert(`total harusnya ${saldoAkhir}`);
+//
 // tugas 2
-const hari = new Date().getDay();
+// const hari = new Date().getDay();
+//
+// if (hari == 1) {
+    // alert('hari ini adalah senin');
+// } else if (hari == 2) {
+    // alert('hari ini adalah selasa');
+// } else if (hari == 3) {
+    // alert('hari ini adalah rabu');
+// } else if (hari == 4) {
+    // alert('hari ini adalah kamis');
+// } else if (hari == 5) {
+    // alert('hari ini adalah jumat');
+// } else if (hari == 6) {
+    // alert('hari ini adalah sabtu');
+// } else if (hari == 7) {
+    // alert('hari ini adalah minggu');
+// }
 
-if (hari == 1) {
-  alert('hari ini adalah senin');
-} else if (hari == 2) {
-  alert('hari ini adalah selasa');
-} else if (hari == 3) {
-  alert('hari ini adalah rabu');
-} else if (hari == 4) {
-  alert('hari ini adalah kamis');
-} else if (hari == 5) {
-  alert('hari ini adalah jumat');
-} else if (hari == 6) {
-  alert('hari ini adalah sabtu');
-} else if (hari == 7) {
-  alert('hari ini adalah minggu');
-}
-
+// tugas rahmat
+// let hariIni = new Date().getDay();
+// if (hariIni == 1) {
+    // hariIni= "senin"
+// } else if (hariIni == 2) {
+    // hariIni
+// } else if (hariIni == 3) {
+    // hariIni= "rabu"
+// } else if (hariIni == 4) {
+    // hariIni= "kamis"
+// } else if (hariIni == 5) {
+    // hariIni= "jumat"
+// } else if (hariIni == 6) {
+    // hariIni= "sabtu"
+// } else if (hariIni == 7) {
+    // hariIni= "minggu"
+// }
+// 
+// const hariInputan = prompt('Hari ini hari apa?')
+// if (hariInputan == hariIni) {
+    // alert('busett pinter banget lu brok')
+// } else {
+    // alert(`goblok sekarang hari ${hariIni} euy`)
+// }
