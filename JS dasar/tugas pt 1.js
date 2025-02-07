@@ -18,3 +18,21 @@ const saldoAkhir = saldoAwal + saldoTambahan - hutang;
 alert(`total harusnya ${saldoAkhir}`);
 
 // tugas 2
+const hari = new Date().getDay();
+
+if (hari == 1) {
+  alert('hari ini adalah senin');
+} else if (hari == 2) {
+  alert('hari ini adalah selasa');
+} else if (hari == 3) {
+  alert('hari ini adalah rabu');
+} else if (hari == 4) {
+  alert('hari ini adalah kamis');
+} else if (hari == 5) {
+  alert('hari ini adalah jumat');
+} else if (hari == 6) {
+  alert('hari ini adalah sabtu');
+} else if (hari == 7) {
+  alert('hari ini adalah minggu');
+}
+
