@@ -61,36 +61,36 @@
     // alert(`goblok sekarang hari ${hariIni} euy`)
 // }
 
-let bulanIni = new Date().getMonth();
-if (bulanIni == 0) {
-    bulanIni = "januari"
-} else if (bulanIni == 1) {
-    bulanIni = "februari"
-} else if (bulanIni == 2) {
-    bulanIni = "maret"
-} else if (bulanIni == 3) {
-    bulanIni = "april"
-} else if (bulanIni == 4) {
-    bulanIni = "mei"
-} else if (bulanIni == 5) {
-    bulanIni = "juni"
-} else if (bulanIni == 6) {
-    bulanIni = "juli"
-} else if (bulanIni == 7) {
-    bulanIni = "august"
-} else if (bulanIni == 8) {
-    bulanIni = "september"
-} else if (bulanIni == 9) {
-    bulanIni = "oktober"
-} else if (bulanIni == 10) {
-    bulanIni = "november"
-} else if (bulanIni == 11) {
-    bulanIni = "desember"
-}
-
-const bulanInputan = prompt('Sekarang bulan apa?')
-if (bulanInputan == bulanIni) {
-    alert('busett pinter banget lu brok')
-} else {
-    alert(`goblok sekarang bulan ${bulanIni} euy`)
-}
+// let bulanIni = new Date().getMonth();
+// if (bulanIni == 0) {
+    // bulanIni = "januari"
+// } else if (bulanIni == 1) {
+    // bulanIni = "februari"
+// } else if (bulanIni == 2) {
+    // bulanIni = "maret"
+// } else if (bulanIni == 3) {
+    // bulanIni = "april"
+// } else if (bulanIni == 4) {
+    // bulanIni = "mei"
+// } else if (bulanIni == 5) {
+    // bulanIni = "juni"
+// } else if (bulanIni == 6) {
+    // bulanIni = "juli"
+// } else if (bulanIni == 7) {
+    // bulanIni = "august"
+// } else if (bulanIni == 8) {
+    // bulanIni = "september"
+// } else if (bulanIni == 9) {
+    // bulanIni = "oktober"
+// } else if (bulanIni == 10) {
+    // bulanIni = "november"
+// } else if (bulanIni == 11) {
+    // bulanIni = "desember"
+// }
+// 
+// const bulanInputan = prompt('Sekarang bulan apa?')
+// if (bulanInputan == bulanIni) {
+    // alert('busett pinter banget lu brok')
+// } else {
+    // alert(`goblok sekarang bulan ${bulanIni} euy`)
+// }
