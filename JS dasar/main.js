@@ -15,6 +15,9 @@
 // 
 
 // ARRAY JS PT 2
-const pairAing = [] //array alicia key
+const pairAing = ['AUDUSD', 'AUDJPY', 'EURJPY', 'EURUSD', 'EURGBP', 'GBPJPY'] //ARRAY COPY
+const newPairAing = pairAing.slice();
 
-pairAing['UJ'] = "USDJPY"
+newPairAing[0] = 'AUDGBP';
+
+console.log(newPairAing);
