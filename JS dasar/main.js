@@ -44,3 +44,5 @@ dataTraders
 .sort((a, b) => b.age - a.age)
 .filter((x) => x.age >= 20)
 .map((values) => console.log(values));
+
+/* JAVASCRIPT ARRAY DONE */
