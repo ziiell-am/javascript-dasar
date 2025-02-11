@@ -23,11 +23,6 @@ const dataTraders = [
         city: 'Malang',
     },
     {
-        name: 'CryZee',
-        age: 18,
-        city: 'Padang',
-    },
-    {
         name: 'ZiChain',
         age: 20,
         city: 'Jakarta',
@@ -37,8 +32,12 @@ const dataTraders = [
         age: 28,
         city: 'Surabaya',
     },
+    {
+        name: 'CryZee',
+        age: 18,
+        city: 'Padang',
+    },
 ];
 
-dataTraders.map((values, index) => {
-    console.log(values.name, values.age);
-})
+// mapping data array sesuai urutan usia
+dataTraders.sort((a, b) => a.age - b.age).map((values) => console.log(values));
