@@ -15,15 +15,30 @@
 // 
 
 // ARRAY JS PT 2
-const pairAing = ['AUDUSD', 'AUDJPY', 'EURUSD'] //MERGE ARRAY
-const pairManeh = ['EURJPY', 'USDJPY', 'GBPUSD']
+// mapping data array
+const dataTraders = [
+    {
+        name: 'ZeeyFx',
+        age: 17,
+        city: 'Malang',
+    },
+    {
+        name: 'CryZee',
+        age: 18,
+        city: 'Padang',
+    },
+    {
+        name: 'ZiChain',
+        age: 20,
+        city: 'Jakarta',
+    },
+    {
+        name: 'ZyPrcs',
+        age: 28,
+        city: 'Surabaya',
+    },
+];
 
-const mergedPair = pairAing.concat(pairManeh)
-
-// mapping array
-for (list in mergedPair) {
-  console.log(list)
-}
-
-//mapping array value dan index nya
-mergedPair.map((value, index) => console.log(index, value))
+dataTraders.map((values, index) => {
+    console.log(values.name, values.age);
+})
