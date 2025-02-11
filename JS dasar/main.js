@@ -39,5 +39,8 @@ const dataTraders = [
     },
 ];
 
-// mapping data array sesuai urutan usia
-dataTraders.sort((a, b) => a.age - b.age).map((values) => console.log(values));
+// filter mapping data array & sort data array
+dataTraders
+.sort((a, b) => b.age - a.age)
+.filter((x) => x.age >= 20)
+.map((values) => console.log(values));
