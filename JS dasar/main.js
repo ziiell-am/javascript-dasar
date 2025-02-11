@@ -15,12 +15,8 @@
 // 
 
 // ARRAY JS PT 2
-const pairAing = ['AUDUSD', 10, {
-    XAUUSD: function () {
-        console.log('ini pair kematian XAUUSD');
-    },
-},
-    ['trade', 'plan']
-] //manggil function dalam array / manggil array dalam array
+const pairAing = ['AUDUSD', 'AUDJPY', 'EURUSD'] //MERGE ARRAY
+const pairManeh = ['EURJPY', 'USDJPY', 'GBPUSD']
 
-pairAing[2].XAUUSD();
+const mergedPair = pairAing.concat(pairManeh)
+console.log(mergedPair)
