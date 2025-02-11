@@ -27,7 +27,10 @@ if (uj) {
     const afterUj = pairAing[indexAfter];
     console.log(`Pair sebelum USDJPY adalah ${beforeUj}`);
     console.log(`Pair setelah USDJPY adalah ${afterUj}`);
-    console.log(`USDJPY ada dan berada di posisi ${posisiUj}`);
+    const pairAwal = pairAing.shift();
+    console.log(`Pair awal adalah ${pairAwal}`);
+    const pairAkhir = pairAing.pop();
+    console.log(`Pair akhir adalah ${pairAkhir}`);
 } else {
     console.log('USDJPY tidak ada');
 }
