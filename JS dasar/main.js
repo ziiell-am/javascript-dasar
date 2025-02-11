@@ -20,6 +20,10 @@ const pairManeh = ['EURJPY', 'USDJPY', 'GBPUSD']
 
 const mergedPair = pairAing.concat(pairManeh)
 
-for (list of mergedPair) {
+// mapping array
+for (list in mergedPair) {
   console.log(list)
 }
+
+//mapping array value dan index nya
+mergedPair.map((value, index) => console.log(index, value))
