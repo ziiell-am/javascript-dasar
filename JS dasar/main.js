@@ -1,19 +1,12 @@
 // JAVASCRIPT DOM
+document.title = "DOM RAWR";
 
-// MEMBUAT ELEMEN BARU DI HTML (DI DIGITAL DOM)
-const body = document.body;
+// menangkap elemen HTML
+const btn1 = document.getElementById('btn1');
+const btn2 = document.getElementById('btn2');
 
-body.append("Hello World"); //menambahkan teks ke body(append khusus body)
-
-const h1 = document.createElement("h1"); //membuat elemen HTML
-h1.innerHTML = "<marquee>Halo Traders</marquee>"; //menambahkan teks ke elemen HTML
-
-const namaTraders = document.createElement("p"); //membuat elemen HTML
-namaTraders.innerHTML = "<marquee>ZeeyFx</marquee>";
-
-const namaTraders2 = document.createElement("p"); //membuat elemen HTML
-namaTraders2.innerHTML = "<marquee>CryZee</marquee>";
-
-body.append(h1); //menambahkan elemen HTML ke body
-body.append(namaTraders); //menambahkan elemen HTML ke body
-body.append(namaTraders2); //menambahkan elemen HTML ke body
+// mengubah style elemen
+btn1.style.border = 'none';
+btn1.style.padding = '10px';
+btn1.style.fontSize = '20px';
+btn1.style.backgroundColor = 'cyan';
