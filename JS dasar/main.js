@@ -19,4 +19,7 @@ const pairAing = ['AUDUSD', 'AUDJPY', 'EURUSD'] //MERGE ARRAY
 const pairManeh = ['EURJPY', 'USDJPY', 'GBPUSD']
 
 const mergedPair = pairAing.concat(pairManeh)
-console.log(mergedPair)
+
+for (list of mergedPair) {
+  console.log(list)
+}
