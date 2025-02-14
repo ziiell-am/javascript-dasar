@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <!-- register -->
+        <div id='registerLayout'>
+            <input type="Email " placeholder="Email" id="emailRegister">
+            <input type="Username" placeholder="Username" id="usernameRegister">
+            <input type="Password" placeholder="Password" id="passwordRegister">
+        </div>
+        <!-- login -->
+        <div id='loginLayout'>
+            <input type="Username" placeholder="Username" id="usernameLogin">
+            <input type="Password" placeholder="Password" id="passwordLogin">
+        </div>
+
+        <!-- button -->
+        <div id='buttonLayout'>
+            <button onclick = "onRegister()"id="registerButton">Daptar</button>
+            <button onclick = "onLogin()"id="loginButton">Masuak</button>
+            <button onclick = "onLogout()"id="logoutButton">Kalua</button>
+        </div>
+
+        <!-- message -->
+        <h1 id="loginSuccess">Masuak lah ang</h1>
+        <h1 id="tryAgain">Buek akun lu oii</h1>
+    </div>
+<script src="copy.js"></script>
+</body>
+</html>
